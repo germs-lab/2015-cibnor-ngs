@@ -8,7 +8,7 @@ Morning
 
 * [Lecture 1](./files/2014-lecture1-welcome.pdf) - Introduction to Scientific Computing
 * [Lecture 2](./files/cloud.md) - Introduction to Cloud Computing
-* `Tutorial A` - Launching a virtual machine with cloud computing
+* [Tutorial A](./files/amazon/index.txt) - Launching a virtual machine with cloud computing
 * `Tutorial B` - Alignment with BLAST
 
 Afternoon
