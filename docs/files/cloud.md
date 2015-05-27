@@ -1,5 +1,7 @@
 ### What are some of reasons to access a remote computer system?
 
+*This material is from Data Carpentry, 2015.
+
  * Your computer does not have enough resources to run the desired analysis (memory, processors, disk space, network bandwidth).
  * You want to produce results faster than your computer can.
  * You cannot install software in your computer (application does not have support for your operating system, conflicts with other existing applications)
@@ -8,12 +10,6 @@
 
 ![Computer Node](https://raw.githubusercontent.com/datacarpentry/cloud-genomics/master/lessons/images/Computer.png)
 
-### Distributed System Definitions and stacks:
-  (Note that many definitions exist for these terms)
-
- * Distributed application: an application that can be executed on a distributed system platform (e.g., mpiBLAST)
- * Distributed system platform: software layers that facilitates coordination and management of a distributed system (e.g., queue-based system, and MapReduce)
- * Distributed system:
    * High Performance Computing (HPC): large assemble of physical machines and a homogeneous operating system (e.g., your institutions' HPC, XSEDE's HPC)
    * Cloud Computing: virtual machines, distributed platforms and/or applications offered as a service (e.g., Amazon Web Services, Microsoft Azure, Google Cloud Computing)
 
@@ -30,9 +26,8 @@
 | Central shared file system | Local file system |
 | Jobs submitted into a queue | Jobs executed on each resource |
 | Account-based isolation | OS-based isolation |
-| Batch-oriented execution of applications | support for batch or interactive applications |
+| Batch-oriented execution of applications | Support for batch or interactive applications |
 | Request for resource and time allocation | Pay-per-use |
-| etc. | etc.|
 
 ![HPC vs. Cloud](https://raw.githubusercontent.com/datacarpentry/cloud-genomics/master/lessons/images/HpcVsCloud.png)
 
