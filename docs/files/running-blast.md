@@ -76,8 +76,8 @@ disk space for Amazon machines :
 
     cd /mnt
 
-    curl -O ftp://ftp.ncbi.nih.gov/refseq/M_musculus/mRNA_Prot/mouse.protein.faa.gz
-    curl -O ftp://ftp.ncbi.nih.gov/refseq/D_rerio/mRNA_Prot/zebrafish.protein.faa.gz
+    curl -O ftp://ftp.ncbi.nlm.nih.gov/refseq/M_musculus/mRNA_Prot/mouse.1.protein.faa.gz
+    curl -O ftp://ftp.ncbi.nlm.nih.gov/refseq/D_rerio/mRNA_Prot/tmpold/zebrafish.protein.faa.gz
 
 If you look at the files in the current directory, you should see both
 files, along with a directory called lost+found which is for system
