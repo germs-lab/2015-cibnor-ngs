@@ -21,10 +21,13 @@ Afternoon
 
 Morning 
 
-* Lecture 1 - `Review`
+* Lecture 1 - Review
 * [Tutorial C](https://khmer-protocols.readthedocs.org/en/v0.8.3/metagenomics/) - Metagenomics Assembly tutorial
 
 Afternoon
 
 * [Tutorial D](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
 * Questions and Wrap Up
+
+Many many more tutorials that you can perform on the Amazon Cloud:
+[Two week long NGS Course](http://angus.readthedocs.org/en/2014/)
