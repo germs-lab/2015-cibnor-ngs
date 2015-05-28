@@ -15,27 +15,16 @@ Afternoon
 
 * Tutorial B - In-class exercise on assembly
 * [Lecture 3](./files/lecture_assembly.pdf) - Assembly and metagenomics assembly
-* `Illumina seminar`
+* Illumina seminar
 
 *Friday, May 29, Day 5*
 
 Morning 
 
-* `Lecture 1` - `Review`
-* `Tutorial C` - Metagenomics Assembly tutorial
+* Lecture 1 - `Review`
+* [Tutorial C](https://khmer-protocols.readthedocs.org/en/v0.8.3/metagenomics/) - Metagenomics Assembly tutorial
 
 Afternoon
 
-* `Lecture 2` - Annotation and Mapping (Metagenomics)
-* `Tutorial D` - Downloading datasets from NCBI
-
-## Presentations
-
-        
-
-## Tutorials - 
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* [Tutorial D](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
+* Questions and Wrap Up
