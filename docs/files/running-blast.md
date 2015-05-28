@@ -88,7 +88,7 @@ information:
 should show you:
 
     drwx------ 2 root root   16384 2013-01-08 00:14 lost+found
-    -rw-r--r-- 1 root root 9454271 2013-06-11 02:29 mouse.protein.faa.gz
+    -rw-r--r-- 1 root root 9454271 2013-06-11 02:29 mouse.1.protein.faa.gz
     -rw-r--r-- 1 root root 8958096 2013-06-11 02:29 zebrafish.protein.faa.gz
 
 Both of these files are FASTA protein files (that's what the .faa
@@ -100,7 +100,7 @@ Uncompress them :
 
 and let's look at the first few sequences:
 
-    head -11 mouse.protein.faa
+    head -11 mouse.1.protein.faa
 
 These are protein sequences in FASTA format. FASTA format is something
 many of you have probably seen in one form or another -- it's pretty
@@ -112,7 +112,7 @@ Let's take those first two sequences and save them to a file. We'll do
 this using output redirection with '\>', which says "take all the output
 and put it into this file here." :
 
-    head -11 mouse.protein.faa > mm-first.fa
+    head -11 mouse.1.protein.faa > mm-first.fa
 
 So now, for example, you can do 'cat mm-first.fa' to see the contents of
 that file (or 'less mm-first.fa').
@@ -156,97 +156,9 @@ before you saved it into the file -- check it out:
 
     cat out.txt
 
-Converting BLAST output into CSV
-================================
+Now, try
 
-Suppose we wanted to do something with all this BLAST output. Generally,
-that's the case - you want to retrieve all matches, or do a reciprocal
-BLAST, or something.
+    blastall -i mm-first.fa -d zebrafish.protein.faa -p blastp -b 2 -v 2 -o out.txt -m 8 
 
-As with most programs that run on UNIX, the text output is in some
-specific format. If the program is popular enough, there will be one or
-more parsers written for that format -- these are just utilities written
-to help you retrieve whatever information you are interested in from the
-output.
+What did that do?
 
-Let's conclude this tutorial by converting the BLAST output in out.txt
-into a spreadsheet format, using a Python script. (We're not doing this
-just to confuse you; this is really how we do things around here.)
-
-First, we need to get the script. We'll do that using the 'git' program
-:
-
-    git clone https://github.com/ngs-docs/ngs-scripts.git /root/ngs-scripts
-
-We'll discuss 'git' more later; for now, just think of it as a way to
-get ahold of a particular set of files. In this case, we've placed the
-files in /root/ngs-scripts/, and you're looking to run the script
-blast/blast-to-csv.py using Python :
-
-    python /root/ngs-scripts/blast/blast-to-csv.py out.txt
-
-This outputs a spread-sheet like list of names and e-values. To save
-this to a file, do:
-
-    python /root/ngs-scripts/blast/blast-to-csv.py out.txt > /root/Dropbox/out.csv
-
-The end file, 'out.csv', should soon be in your Dropbox on your local
-computer. If you have Excel installed, try double clicking on it.
-
-* * * * *
-
-And that's the kind of basic workflow we'll be teaching you:
-
-1.  Download program
-2.  Download data
-3.  Run program on data
-4.  Look at results
-
-...but in many cases more complicated :).
-
-* * * * *
-
-Note that there's no limit on the number of sequences you BLAST, etc.
-It's just sheer compute speed and disk space that you need to worry
-about, and if you look at the files, it turns out they're not that big
---so it's mostly your time and energy.
-
-This will also maybe help you understand why UNIX programs are so
-powerful -- each program comes with several, or several dozen, little
-command line "flags" (parameters), that help control how it does its
-work; then the output is fed into another such program, etc. The
-possibilities are literally combinatorial.
-
-* * * * *
-
-We're running a Python program 'blast-to-csv.py' above -- if you're
-interested in what the Python program does, take a look at the source
-code:
-
-> <https://github.com/ngs-docs/ngs-scripts/blob/master/blast/blast-to-csv.py>
-
-Summing up
-==========
-
-Command-line BLAST lets you do BLAST searches of any sequences you have,
-quickly and easily. It's probably the single most useful skill a
-biologist can learn if they're doing anything genomics-y ;).
-
-Its main computational drawback is that it's not fast enough to deal
-with some of the truly massive databases we now have, but that's
-generally not a problem for individual users. That's because they just
-run it and "walk away" until it's done!
-
-The main practical issues you will confront in making use of BLAST:
-
-> -   getting your sequence(s) into the right place.
-> -   formatting the database.
-> -   configuring the BLAST parameters properly.
-> -   doing what you want after BLAST!
-
-* * * * *
-
-Other questions to ponder:
-
-> -   if we're using a pre-configured operating system, why did we have
->     to install BLAST?
