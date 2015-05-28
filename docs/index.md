@@ -9,7 +9,7 @@ Morning
 * [Lecture 1](./files/2014-lecture1-welcome.pdf) - Introduction to Scientific Computing
 * [Lecture 2](./files/cloud.md) - Introduction to Cloud Computing
 * [Tutorial A](http://angus.readthedocs.org/en/2014/day1.html) - Launching a virtual machine with cloud computing
-* [Tutorial B](http://angus.readthedocs.org/en/2014/day2.html) - Alignment with BLAST
+* [Tutorial B](./files/running-blast.md) - Alignment with BLAST
 
 Afternoon
 
