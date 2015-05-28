@@ -13,8 +13,8 @@ Morning
 
 Afternoon
 
-* `Tutorial B` - In-class exercise on assembly
-* `Lecture 3` - Assembly and metagenomics assembly
+* Tutorial B - In-class exercise on assembly
+* [Lecture 3](./files/lecture_assembly.pdf) - Assembly and metagenomics assembly
 * `Illumina seminar`
 
 *Friday, May 29, Day 5*
