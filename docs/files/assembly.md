@@ -70,13 +70,13 @@ Most metagenomic analysis require one to estimate the abundance of reference gen
 
 For the mock HMP metagenome, the HMP has sequenced the genomes of the isolates used for this simulated dataset. The list of these genomes can be obtained on the HMP website, and we provide it here in a Github repository, a tool used for collaboratively sharing data and code. The command below will download data for this tutorial.
 
-    cat ncbi_acc.txt
 
 The following command downloads all the genomes for each ID in the above list into a directory called "genomes".
 
     cp frontiers-review-2015/fetch-genomes-fasta.py /mnt/.
     cp frontiers-review-2015/ncbi_acc.txt /mnt/.
     python fetch-genomes-fasta.py ncbi_acc.txt genomes
+    cat ncbi_acc.txt
 
 ##Estimating abundance of assembled contigs
 
