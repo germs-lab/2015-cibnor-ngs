@@ -22,12 +22,25 @@ Afternoon
 Morning 
 
 * Lecture 1 - Review
+* Log into an AWS instance
 * [Tutorial C](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
 
 
 Afternoon
+
 * [Tutorial D](./files/assembly.md) - Metagenomics Assembly tutorial
-* Questions and Wrap Up
+* Questions and Wrap Up - perhaps some coding if there is interest
 
 Many many more tutorials that you can perform on the Amazon Cloud:
 [Two week long NGS Course](http://angus.readthedocs.org/en/2014/)
+
+[Webpage for where Adina does sequencing services](http://ngs.igsb.anl.gov/)
+
+*Many tutorials*
+[ANGUS website](http://ged.msu.edu/angus/)
+
+*Contact information*
+Adina Howe
+adina@iastate.edu
+twitter:  @teeniedeenie
+[GERMS Lab](www.germslab.org)
