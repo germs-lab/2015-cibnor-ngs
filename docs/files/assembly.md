@@ -1,12 +1,12 @@
 #Introduction
 
-The largest challenge facing the usage of metagenomic approaches in microbiology is the need to extend traditional microbiology training to include metagenomic or sequencing data analysis. Sean Eddy (a compuational biologist at the Howard Hughes Medical Institute) nicely describes the impacts of high throughput sequencing on biology and its training in his ![keynote address](http://cryptogenomicon.org/2014/11/01/high-throughput-sequencing-for-neuroscience/#more-858).
+The largest challenge facing the usage of metagenomic approaches in microbiology is the need to extend traditional microbiology training to include metagenomic or sequencing data analysis. Sean Eddy (a compuational biologist at the Howard Hughes Medical Institute) nicely describes the impacts of high throughput sequencing on biology and its training in his [keynote address](http://cryptogenomicon.org/2014/11/01/high-throughput-sequencing-for-neuroscience/#more-858).
 
 To facilitate the barriers to microbiologists for metagenomic assembly, we have complemented this review with a tutorial of how to estimate the abundance of reference sequences (e.g., genes, contigs, etc.) in a metagenome. We include approaches that include using references that are both (i) available genome references or (ii) assembled from the metagenome. In general, to complete this tutorial and most metagenomic assembly, one would need:
 
 Access to a server. Most metagenomic assembly will require more memory than most researchers will have on their personal computers. In this tutorial, we will provide training on the publicly accessible Amazon EC2 instances which can be rented by anyone with a registered account.
 
-Access to a metagenomic dataset. We have selected the usage of the ![HMP Mock Community WGS dataset](http://www.hmpdacc.org/HMMC/) for this tutorial given its availability, practical size, and availability of reference genomes. This dataset represents a mock metagenome of 22 known organisms for which DNA was extracted from cultured isolates, combined, and sequenced.
+Access to a metagenomic dataset. We have selected the usage of the [HMP Mock Community WGS dataset](http://www.hmpdacc.org/HMMC/) for this tutorial given its availability, practical size, and availability of reference genomes. This dataset represents a mock metagenome of 22 known organisms for which DNA was extracted from cultured isolates, combined, and sequenced.
 Software for assembly, read mapping, and annotation. We will demonstrate the installation of this software on an Ubuntu-based server.
 
 Remember, to log in to your EC2 machine: 
