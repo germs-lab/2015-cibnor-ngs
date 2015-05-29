@@ -96,6 +96,7 @@ Map reads to your index genome (with default bowtie parameters),
 Use Samtools to estimate the number of reads mapped, number of reads unmapped, and provide a tab delimited file with each line consisting of reference sequence name, sequence length, # mapped reads and # unmapped reads.
 This takes about 8-10 minutes.
 
+    screen
     cp frontiers-review-2015/bowtie.sh /mnt/.
     bash bowtie.sh genomes/NC_000913.2.fa SRR172903.fastq
 
