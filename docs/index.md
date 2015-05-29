@@ -47,6 +47,7 @@ Many many more tutorials that you can perform on the Amazon Cloud:
 *Many tutorials*
 
 [ANGUS website](http://ged.msu.edu/angus/)
+[Biostars website](https://www.biostars.org/)
 
 *Contact information*
 
