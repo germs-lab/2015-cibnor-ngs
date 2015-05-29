@@ -1,5 +1,9 @@
 # Tutorials for CIBNOR NGS Metagenomics
 
+## Link to IDs
+
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1XFiYVBQIsdiso7JwxS9_vReOGxVfAh2fpZjJ0z-43C0/edit?usp=sharing)
+
 ## Schedule
 
 *Thursday, May 28, Day 4*
