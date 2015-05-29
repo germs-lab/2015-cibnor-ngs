@@ -56,6 +56,7 @@ An advantage of metagenomic sequencing is the ability to quantify microbial dive
 Let's install the software package khmer.
 
     cd /mnt
+    easy_install -U setuptools
     pip install khmer
 
 Let's count the total number of unique k-mers:
