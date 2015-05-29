@@ -25,6 +25,10 @@ Morning
 * Log into an AWS instance
 * [Tutorial C](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
 
+Some useful information for tutorial C.
+[Table of Databases](http://www.ncbi.nlm.nih.gov/books/NBK25497/table/chapter2.T._entrez_unique_identifiers_ui/?report=objectonly)
+[Table of return values for eutils](http://www.ncbi.nlm.nih.gov/books/NBK25499/table/chapter4.T._valid_values_of__retmode_and/?report=objectonly)
+[
 
 Afternoon
 
