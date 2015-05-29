@@ -22,7 +22,7 @@ Afternoon
 Morning 
 
 * Lecture 1 - Review
-* [Tutorial C](https://khmer-protocols.readthedocs.org/en/v0.8.3/metagenomics/) - Metagenomics Assembly tutorial
+* [Tutorial C](./files/assembly.md) - Metagenomics Assembly tutorial
 
 Afternoon
 
