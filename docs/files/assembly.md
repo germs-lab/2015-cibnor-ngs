@@ -61,6 +61,7 @@ Let's install the software package khmer.
 
 Let's count the total number of unique k-mers:
 
+    cp frontiers-review-2015/unique-kmers.py .
     python unique-kmers.py -R unique_count -k 17 SRR172903.fastq
 
 ##Getting a sequence coverage profile: What genes are present in my metagenome?
