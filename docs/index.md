@@ -54,6 +54,8 @@ Many many more tutorials that you can perform on the Amazon Cloud:
 
 [Transferring files scp](http://angus.readthedocs.org/en/2014/amazon/transfer-files-between-instance.html)
 
+[Other reading](http://software-carpentry.org/bib/bib.html)
+
 *Contact information*
 
 Adina Howe
