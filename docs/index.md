@@ -22,11 +22,11 @@ Afternoon
 Morning 
 
 * Lecture 1 - Review
-* [Tutorial C](./files/assembly.md) - Metagenomics Assembly tutorial
+* [Tutorial C](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
+
 
 Afternoon
-
-* [Tutorial D](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
+* [Tutorial D](./files/assembly.md) - Metagenomics Assembly tutorial
 * Questions and Wrap Up
 
 Many many more tutorials that you can perform on the Amazon Cloud:
