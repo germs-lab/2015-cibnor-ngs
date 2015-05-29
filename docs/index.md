@@ -37,10 +37,15 @@ Many many more tutorials that you can perform on the Amazon Cloud:
 [Webpage for where Adina does sequencing services](http://ngs.igsb.anl.gov/)
 
 *Many tutorials*
+
 [ANGUS website](http://ged.msu.edu/angus/)
 
 *Contact information*
+
 Adina Howe
+
 adina@iastate.edu
+
 twitter:  @teeniedeenie
+
 [GERMS Lab](www.germslab.org)
