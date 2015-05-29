@@ -30,7 +30,9 @@ Morning
 * [Tutorial C](http://angus.readthedocs.org/en/2014/howe-ncbi.html) - Downloading datasets from NCBI
 
 Some useful information for tutorial C.
+ 
 [Table of Databases](http://www.ncbi.nlm.nih.gov/books/NBK25497/table/chapter2.T._entrez_unique_identifiers_ui/?report=objectonly)
+
 [Table of return values for eutils](http://www.ncbi.nlm.nih.gov/books/NBK25499/table/chapter4.T._valid_values_of__retmode_and/?report=objectonly)
 [
 
@@ -47,7 +49,10 @@ Many many more tutorials that you can perform on the Amazon Cloud:
 *Many tutorials*
 
 [ANGUS website](http://ged.msu.edu/angus/)
+
 [Biostars website](https://www.biostars.org/)
+
+[Transferring files scp](http://angus.readthedocs.org/en/2014/amazon/transfer-files-between-instance.html)
 
 *Contact information*
 
